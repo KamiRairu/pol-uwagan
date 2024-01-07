@@ -1,0 +1,122 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#showcase {
+  background-image:url('htemel.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+ -webkit-text-fill-color: #499256;
+  -webkit-text-stroke-width: 1px;
+}
+#showcase p {
+  font-size: 40px;
+  color: rgb(36, 96, 31);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2f5d22;
+
+}
+#showcase p2 {
+  font-size: 20px;
+  color: rgb(36, 96, 31);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1b5e12;
+}
+
+#showcase h2{
+  font-size: 30px;
+  color: rgb(24, 137, 16);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #215e1c;
+
+}
+#showcase .button {
+  font-size: 18px ;
+  text-decoration: none;
+  color: #bd7ee7;
+  border: #bd7ee7 2px solid;
+  line-height: 2cm;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+
+#showcase .button:hover {
+  background: #ff00ff9 1px;
+  color: #7100d4;
+
+
+}
+
+.image-button1 {
+  
+  width: 375px;
+  height: 127px;
+   position: center;
+  top: 100px;
+  cursor: pointer;
+  animation: up 3s linear infinite;
+}
+.image-button2 {
+  
+  width: 250px;
+  height: 250px;
+   position: center;
+  top: 100px;
+  cursor: pointer;
+  animation: up 3s linear infinite;
+}
+.image-button3 {
+  
+  width: 250px;
+  height: 250px;
+   position: center;
+  top: 100px;
+  cursor: pointer;
+  animation: up 3s linear infinite;
+}
+
+@keyframes up {
+  0%, 100%{
+    transfrom: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 768px) {
+  #showcase h1 {
+    font-size: 8vw; /* Adjust font size for smaller screens */
+  }
+
+  #showcase p,p2,
+  #showcase h2 {
+    font-size: 6vw; /* Adjust font size for smaller screens */
+  }
+
+  #showcase .button {
+    font-size: 4vw; /* Adjust font size for smaller screens */
+    line-height: 3em; /* Adjust line-height for smaller screens */
+    margin-top: 4vw; /* Adjust margin-top for smaller screens */
+  }
+}
+
+
+
+
+

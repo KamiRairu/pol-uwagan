@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#showcase {
+  background-image:url('htemel.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0px;
+}
+
+#showcase h1 {
+  font-size: 200px;
+  line-height: 1.2;
+ -webkit-text-fill-color: #499256;
+  -webkit-text-stroke-width: 10px;
+}
+#showcase p {
+  font-size: 40px;
+  color: rgb(41, 97, 21);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #163c0b;
+
+}
+#showcase h2{
+  font-size: 30px;
+  color: rgb(255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #bd7ee7;
+
+}
+#showcase .button {
+  font-size: 18px ;
+  text-decoration: none;
+  color: #bd7ee7;
+  border: #bd7ee7 2px solid;
+  line-height: 2cm;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+
+#showcase .button:hover {
+  background: #ff00ff9 1px;
+  color: #7100d4;
+
+
+}
+
+.image-button1 {
+
+  width: 375px;
+  height: 127px;
+   position: center;
+  top: 100px;
+  cursor: pointer;
+  animation: up 3s linear infinite;
+}
+.image-button2 {
+
+  width: 250px;
+  height: 250px;
+   position: center;
+  top: 100px;
+  cursor: pointer;
+  animation: up 3s linear infinite;
+}
+.image-button3 {
+
+  width: 250px;
+  height: 250px;
+   position: center;
+  top: 100px;
+  cursor: pointer;
+  animation: up 3s linear infinite;
+}
+#returnButton {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        /* Hover effect */
+        #returnButton:hover {
+            background-color: #2980b9;
+        }
+
+@keyframes up {
+  0%, 100%{
+    transfrom: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@media (min-width: 768px) {
+  #showcase h1 {
+    font-size: 40px; /* Adjust font size for larger screens */
+  }
+
+  #showcase p,
+  #showcase h2 {
+    font-size: 30px; /* Adjust font size for larger screens */
+  }
+
+  #showcase .button {
+    font-size: 18px; /* Adjust font size for larger screens */
+    line-height: 2.5em; /* Adjust line-height for larger screens */
+    margin-top: 20px; /* Adjust margin-top for larger screens */
+  }
+}
